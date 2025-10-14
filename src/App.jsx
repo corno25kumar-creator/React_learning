@@ -1,5 +1,6 @@
 import ClickEventTopic from './topics/click_Event'; // loads index.jsx automatically
 import Wrapper from './components/Wrapper';
+import MainComp from './topics/toggle/index'
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
         <Wrapper>
           <ClickEventTopic />
         </Wrapper>
+
+         <Wrapper>
+            <MainComp/>
+        </Wrapper>
+        
       </div>
     </div>
   );
