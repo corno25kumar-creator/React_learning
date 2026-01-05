@@ -1,0 +1,40 @@
+   // structure
+
+   
+    // useEffect(()=>{
+    //     //first
+
+    //     return() => {
+
+    //     }
+    // }, [])
+
+
+variation 
+
+
+1. run on every render
+// due to strict mode the useEffect render on 2 by default 
+
+ useEffect(() => {
+    // Note: This triggers on every single render because there is no dependency array
+    alert("I will render this on every render");
+  });
+
+2.run on first render only 
+
+
+  useEffect(() => {
+    // Note: This triggers on every single render because there is no dependency array
+    alert("I will render this on every render");
+  },[]);
+
+3. run only when the dependency change 
+
+  useEffect(() => {
+    // Note: This triggers on every single render because there is no dependency array
+    alert("I will render this on every render");
+  },[count]);
+
+
+  4. clean up function 
