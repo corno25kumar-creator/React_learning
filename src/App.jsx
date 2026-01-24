@@ -11,8 +11,11 @@
 // import {setLoader} from './contextapi/api/contextloader'
 // import GlobalLoader from "./components/GlobalLoader";
 // import { NewsProvider } from './contextapi/context/NewsContext.jsx'
+//import MainZustand from "./zustand/MainZustand"
 
-import MainZustand from "./zustand/MainZustand"
+import MainCustomeHook from "./hooks/coustomhook/MainCustomeHook"
+
+//import MainHocCusHook from "./higherorderfuction/MainHoc"
 
 
 function App() {
@@ -27,9 +30,12 @@ function App() {
       {/* <GetPost /> */} 
        {/* <NewsProvider>
          <NewsPage/>
-          </NewsProvider> */}
-         
-  <MainZustand/>
+          </NewsProvider> 
+          <MainZustand/>
+            <MainHocCusHook/>
+  */}
+  <MainCustomeHook/>
+       
     </>
   )
 }
