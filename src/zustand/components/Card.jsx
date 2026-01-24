@@ -5,7 +5,7 @@ const Card = () => {
  const { data, changeName ,getCurrentName} = myStore();
 
   return (
-    <div className="w-72 h-44 bg-gradient-to-br from-indigo-500 to-purple-600 
+    <div className="w-72 h-44 bg-linear-to-br from-indigo-500 to-purple-600 
                     rounded-2xl shadow-xl flex flex-col justify-center items-center 
                     gap-5 text-white transform transition-all duration-300 
                     hover:scale-105 hover:shadow-2xl">
