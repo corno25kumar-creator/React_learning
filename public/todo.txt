@@ -1,0 +1,13 @@
+lifecycle   --------------------------------------------------
+usecallback
+useMemo
+redux
+routing
+list rendering
+input fleid
+checkbox
+selectdrop down
+props
+data flow
+optimazation
+conditional rendering 

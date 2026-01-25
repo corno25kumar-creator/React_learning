@@ -13,7 +13,8 @@
 // import { NewsProvider } from './contextapi/context/NewsContext.jsx'
 //import MainZustand from "./zustand/MainZustand"
 
-import MainCustomeHook from "./hooks/coustomhook/MainCustomeHook"
+//import MainCustomeHook from "./hooks/coustomhook/MainCustomeHook"
+import MainLifeCycle from "./lifecycle/MainLifeCycle"
 
 //import MainHocCusHook from "./higherorderfuction/MainHoc"
 
@@ -33,8 +34,9 @@ function App() {
           </NewsProvider> 
           <MainZustand/>
             <MainHocCusHook/>
+            <MainCustomeHook/>
   */}
-  <MainCustomeHook/>
+      <MainLifeCycle/>
        
     </>
   )
