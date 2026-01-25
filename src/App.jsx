@@ -14,10 +14,11 @@
 //import MainZustand from "./zustand/MainZustand"
 
 //import MainCustomeHook from "./hooks/coustomhook/MainCustomeHook"
-import MainLifeCycle from "./lifecycle/MainLifeCycle"
-
+//import MainLifeCycle from "./lifecycle/MainLifeCycle"
+//import MainMemo from "./hooks/memo/MainMemo"
+// import MainUseMemo from './hooks/useMemo/MainUseMemo'
 //import MainHocCusHook from "./higherorderfuction/MainHoc"
-
+import MainCallBack from "./hooks/useCallback/MainCallBack"
 
 function App() {
   //   const [loading, setLoading] = useState(false);
@@ -35,8 +36,12 @@ function App() {
           <MainZustand/>
             <MainHocCusHook/>
             <MainCustomeHook/>
+            <MainLifeCycle/>
+             <MainUseMemo/>
+             <MainMemo/>
   */}
-      <MainLifeCycle/>
+      
+      <MainCallBack/>
        
     </>
   )
