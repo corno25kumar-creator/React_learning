@@ -19,6 +19,7 @@
 // import MainUseMemo from './hooks/useMemo/MainUseMemo'
 //import MainHocCusHook from "./higherorderfuction/MainHoc"
 import MainCallBack from "./hooks/useCallback/MainCallBack"
+import Practice from "./hooks/useEffect/pratice"
 
 function App() {
   //   const [loading, setLoading] = useState(false);
@@ -39,9 +40,14 @@ function App() {
             <MainLifeCycle/>
              <MainUseMemo/>
              <MainMemo/>
+              <MainCallBack/>
   */}
+
+   <Practice/>
       
-      <MainCallBack/>
+     
+
+
        
     </>
   )
