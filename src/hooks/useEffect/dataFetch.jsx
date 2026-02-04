@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 function DataFetch() {
 
-    const [data, setData] = useState([])
+    const [data, setData] = useState([])   
     const [loading , setLoading] = useState(true)
  
     useEffect(()=> {
